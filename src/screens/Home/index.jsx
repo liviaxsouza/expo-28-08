@@ -9,6 +9,7 @@ export default function Home() {
       <Title title="Home Screen" />
 
       <MyButton screen="Lili" name="Lili" />
+      <MyButton screen="Jojo" name="Jojo" />
     </View>
   )                 
 }

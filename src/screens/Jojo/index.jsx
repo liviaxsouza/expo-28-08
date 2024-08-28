@@ -4,13 +4,13 @@ import MyButton from '../../components/MyButton';
 import Title from '../../components/Title';
 
 
-export default function Lili() {
+export default function Jojo() {
   return (
     <View  style={styles.container}>
-      <Title title="Lili Screen" />
+      <Title title="Jojo Screen" />
 
       <MyButton screen="Home" name="Home" />
-      <MyButton screen="Jojo" name="Jojo" />
+      <MyButton screen="Lili" name="Lili" />
     </View>
   )
 }
