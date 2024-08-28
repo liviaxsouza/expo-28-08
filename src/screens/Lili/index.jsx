@@ -1,16 +1,15 @@
-import { View, Text, TouchableOpacity } from 'react-native'
-import { useNavigation } from '@react-navigation/native'
+import { View } from 'react-native'
 import styles from './styles'
+import MyButton from '../../components/MyButton';
+import Title from '../../components/Title';
+
 
 export default function Lili() {
-    const navigation = useNavigation();
   return (
     <View  style={styles.container}>
-      <Text style={styles.title}>Lili Screen</Text>
+      <Title title="Lili Screen" />
 
-      <TouchableOpacity onPress={() => navigation.navigate("Home")}>
-        <Text style={styles.text}>Back to Home</Text>
-        </TouchableOpacity>
+      <MyButton screen="Home" name="Home" />
     </View>
   )
 }
